@@ -1,0 +1,103 @@
+.header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #1e212a;
+    border-bottom: 1px solid #505461;
+    color: #fff;
+    .nav{
+        width: 1170px;
+        margin: 0 auto;
+        .nav-left{
+            img{
+                position: absolute;
+                top: 50%;
+                margin-top: -20px;
+                width: 100px;
+                height: 40px;
+            }
+            ul{
+                // position: absolute;
+                line-height: 50px;
+                margin-left: 180px;
+                li{
+                    float: left;
+                    cursor: pointer;
+                    margin-right: 20px;
+                    padding: 0 10px;
+                    a{
+                        color: #fff;
+                    }
+                }
+                li:hover{
+                    border-bottom: 3px solid #3893e4;
+                    a{
+                        font-weight: 600;
+                    }
+                }
+                li.sli{
+                    position: relative;
+                    div.tem{
+                        display: none;
+                    }
+                    div{
+                        display: inline-block;
+                        background-color: #1e212a;
+                        width: 150px;
+                        padding: 0 10px;
+                        position: absolute;
+                        left: 0;
+                        top: 50px;
+                        z-index: 9;
+                        font-size: 14px;
+                        color: #e64242;
+                    }
+                }
+                li.sli:hover{
+                    border-bottom: none;
+                    a{
+                        color: #3893e4;
+                    }
+                    div.tem{
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        .nav-right{
+            float: right;
+            line-height: 50px;
+            font-size: 14px;
+            color: #fff;
+            a{
+                font-size: 14px;
+                color: #fff;
+                display: inline-block;
+                margin-left: 15px;
+            }
+            a:hover{
+                color: #3893e4;
+            }
+            .show-name{
+                position: relative;
+                padding: 0 10px;
+                cursor: pointer;
+                .tpl{
+                    display: none;
+                    position: absolute;
+                    top: 50px;
+                    left: 0;
+                    width: 100%;
+                    text-align: center;
+                    background-color: #1e212a;
+                }
+            }
+            .show-name:hover{
+                .tpl{
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

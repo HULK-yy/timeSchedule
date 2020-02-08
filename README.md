@@ -22,3 +22,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+------------------------------------------------------------------
+## 开发遇到问题
+1. 组件通信
+2. 跨域cookie
+3. mongodb异步执行
