@@ -20,5 +20,10 @@ npm run build
 npm run lint
 ```
 
+### Server Folder opening service
+```
+node index.js
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
